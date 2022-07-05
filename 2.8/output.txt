@@ -1,0 +1,136 @@
+npm run test
+
+> js-training@0.9.1 test
+> mocha
+
+
+
+  01-strings-tasks
+    √ concatenateStrings should return concatenation of two strings
+    √ getStringLength should return the length of string
+    √ getStringFromTemplate should create a string from template using given parameters
+    √ getFirstChar should return the first char from given string
+    √ extractNameFromTemplate should parse the name from given string
+    √ removeLeadingAndTrailingWhitespaces should remove leading and trailing whitespaces from the string       
+    √ repeatString should repeat string specified number of times
+    √ removeFirstOccurrences should remove all specified values from a string
+    √ unbracketTag should remove first and last angle brackets from tag string
+    √ convertToUpperCase should convert all chars from specified string into upper case
+    √ extractEmails should extract emails from string list delimeted by semicolons
+    √ getRectangleString should return the string reprentation of rectangle with specified size
+    √ encodeToRot13 should encode-decode string using ROT13 algorithm
+    √ isString should return true if argument ia a string
+    √ getCardId should return the index of card in the initial deck
+
+  02-numbers-tasks
+    √ getRectangleArea should return a square of rectangle
+√ getCicleCircumference should return a circumference of cicle
+    √ getAverage should return an average of two numbers
+    √ getDistanceBetweenPoints should return a distance between points
+    √ getLinearEquationRoot should return a root of linear equation
+    √ getAngleBetweenVectors should return a angle (in radians) between two linear vectors
+    √ getLastDigit should return a last digit of the number
+    √ parseNumberFromString should return a number from the given string representation
+    √ getParallelipidedDiagonal should return a diagonal length of the rectagular parallepiped
+    √ roundToPowerOfTen should return an number rounded to specified power of 10
+    √ isPrime should return true if specified number is prime
+    √ toNumber should convert any value to number or return the default
+
+  03-date-tasks
+    √ parseDataFromRfc2822 should parse rfc2822 string into a date value
+    √ parseDataFromIso8601 should parse ISO 8601 string into a date value
+    √ isLeapYear should true if specified year is leap
+    √ timeSpanToString should return the string represation of time span between two dates
+    √ angleBetweenClockHands should returns the angle bettween clock hands for specified Greenwich datetime    
+
+  04-arrays-tasks
+    √ findElement should return the index of specified value if exists
+    √ generateOdds should return the array of odd numbers of specified size
+    √ doubleArray should return the specified array twice
+    √ getArrayOfPositives should return the array of positive values from specified array
+    √ getArrayOfStrings should return the array of string values from specified array
+    √ removeFalsyValues should return the specified array without falsy values
+    √ findAllOccurences should return the number of all occurences of specified item in an array
+    √ getUpperCaseStrings should convert strings from specified array to uppercase
+    √ getStringsLength should convert strings from specified array to uppercase
+    √ insertItem should insert an item at specified position
+    √ getHead should return the n first items from the specified array
+    √ getTail should return the n last items from the specified array
+    √ toCsvText should convert two-dimentional numeric array to CSV format
+    √ toArrayOfSquares should convert numeric array to the array of squares
+    √ getMovingSum should convert numeric array to the according array of moving sum
+    √ getSecondItems should return every second item from the specified array
+    √ propagateItemsByPositionIndex should propagate every item its position time
+    √ get3TopItems should return the 3 largest items from integer array
+    √ getPositivesCount should return the number of positive integers in the specified array
+    √ sortDigitNamesByNumericOrder should sort digit names by its numeric value
+    √ getItemsSum should return the sum of all items of numbers array
+    √ getFalsyValuesCount should return the number of falsy value in the specified array
+    √ toStringList should return the string list of passed arguments
+    √ sortCitiesArray should sort the array of objects using two keys
+    √ getIdentityMatrix should return the identity matrix of the specified size
+    √ getIntervalArray should return the array of integers from start to end (inclusive)
+    √ distinct should return an array of unique items from the specified array
+    √ group should return a map of grouped data by key and value selector
+    √ selectMany should return an array of child items from the specified array
+    √ getElementByIndexes should return an element from array by specified indexes
+    √ swapHeadAndTail should swap the head and tail of the array
+    √ Functions from 04-array-test.js should not use basic loops statements
+
+  05-regex-tasks
+    √ getRegexForGuid should match the valid GUID
+    √ getRegexForPitSpot should be implemeted according to task
+    √ getRegexForIPv4 should match the valid IPv4
+    √ getRegexForSSN should match the valid SSN
+    √ getPasswordValidator should return the password validator
+
+  06-conditions-n-loops-tasks
+    √ getFizzBuzz should return the output value according specification
+    √ getFactorial should return the functorial of given number
+    √ getSumBetweenNumbers should return the sum inside the specified interval
+    √ isTriangle should check if triangle can be built
+    √ doRectanglesOverlap should return true if rectangles overlap
+    √ isInsideCircle should return true if point lies inside of the specified circle
+    √ findFirstSingleChar should return the first unrepeated char from string
+    √ getIntervalString should return the string representation of math interval
+    √ reverseString should return the specified string in reverse order
+    √ reverseInteger should return the specified number in reverse order
+    √ isCreditCardNumber should validate CCN
+    √ getDigitalRoot should return the cyclic sum of all digits
+    √ isBracketsBalanced should check the balanced brackets
+    √ toNaryString should return the n-ary string representation of number
+    √ getCommonDirectoryPath should return the n-ary string representation of number
+    √ getMatrixProduct should return the product of two specified matrices
+    √ timespanToHumanString should return the human string representation of datetime period
+    √ evaluateTicTacToePosition should return the winner if defined
+
+  07-yield-tasks
+    √ get99BottlesOfBeer should return the sequence of song lyric lines
+    √ getFibonacciSequence should return the Fibonacci sequence
+    √ depthTraversalTree should return the sequence of tree nodes in depth-first order
+    √ depthTraversalTree should process a deep tree (58ms)
+    √ depthTraversalTree should process a wide tree
+    √ breadthTraversalTree should return the sequence of tree nodes in depth-first order
+    √ breadthTraversalTree should process a deep tree (43ms)
+    √ breadthTraversalTree should process a wide tree
+    √ mergeSortedSequences should merge two sorted sequences into one sorted sequence
+
+  08-objects-tasks
+    √ Rectangle constructor should return the rectangle object
+    √ getJSON should return the JSON representation of specified object
+    √ fromJSON should return the object of specified type from JSON representation
+    √ cssSelectorBuilder should creates css selector object with stringify() method
+
+  09-functions-n-closures-tasks
+    √ getComposition should return the composition of two functions
+    √ getPowerFunction should return the math power function using the specified exponent
+    √ getPolynom should return the polynom with specified coefficients
+    √ memoize method should cache the result of function
+    √ retry method should try to evaluate the specified function several times
+    √ logger method should log start and end of call of the standard js function
+    √ logger method should log start and end of call of the specified function
+    √ partialUsingArguments should return the function with partial applied arguments
+    √ getIdGeneratorFunction should return the id generator function
+
+
+  109 passing (303ms)
